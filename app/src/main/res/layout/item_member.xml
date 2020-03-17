@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/memberbackground">
+
+        <ImageView
+            android:id="@+id/memberImage"
+            android:layout_width="34dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/minihipo"/>
+
+        <TextView
+            android:id="@+id/memberNameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="AHMET CEM S"
+            android:layout_gravity="center_vertical"
+            android:textSize="28sp"
+            android:fontFamily="@font/agency_fb"
+            android:textColor="#AF0D26"
+            android:layout_weight="9"/>
+    </LinearLayout>
+</layout>

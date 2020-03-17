@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/personImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="229dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/person" />
+
+        <ImageView
+            android:id="@+id/locationImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/personImage"
+            app:layout_constraintTop_toBottomOf="@+id/personImage"
+            app:srcCompat="@drawable/location" />
+
+        <ImageView
+            android:id="@+id/githubImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/locationImage"
+            app:layout_constraintTop_toBottomOf="@+id/locationImage"
+            app:srcCompat="@drawable/github" />
+
+        <ImageView
+            android:id="@+id/workImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="@+id/githubImage"
+            app:layout_constraintTop_toBottomOf="@+id/githubImage"
+            app:srcCompat="@drawable/position" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:fontFamily="@font/agency_fb"
+            android:text="TextView"
+            android:textColor="#E5E4E4"
+            android:textSize="28sp"
+            app:layout_constraintStart_toEndOf="@+id/personImage"
+            app:layout_constraintTop_toTopOf="@+id/personImage" />
+
+        <TextView
+            android:id="@+id/locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:fontFamily="@font/agency_fb"
+            android:text="TextView"
+            android:textColor="#E5E4E4"
+            android:textSize="28sp"
+            app:layout_constraintStart_toEndOf="@+id/locationImage"
+            app:layout_constraintTop_toTopOf="@+id/locationImage" />
+
+        <TextView
+            android:id="@+id/githubText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:fontFamily="@font/agency_fb"
+            android:text="TextView"
+            android:textColor="#E5E4E4"
+            android:textSize="28sp"
+            app:layout_constraintStart_toEndOf="@+id/githubImage"
+            app:layout_constraintTop_toTopOf="@+id/githubImage" />
+
+        <TextView
+            android:id="@+id/positionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:fontFamily="@font/agency_fb"
+            android:text="TextView"
+            android:textColor="#E5E4E4"
+            android:textSize="28sp"
+            app:layout_constraintStart_toEndOf="@+id/workImage"
+            app:layout_constraintTop_toTopOf="@+id/workImage" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="69dp"
+            android:fontFamily="@font/century_gothic"
+            android:text="Android Team"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toTopOf="@+id/imageView6" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="0dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="125dp"
+            android:layout_marginEnd="26dp"
+            android:layout_marginBottom="126dp"
+            app:layout_constraintBottom_toBottomOf="@+id/locationText"
+            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hipologo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
