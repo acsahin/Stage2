@@ -1,15 +1,11 @@
 package com.acs.stage2.viewmodel
 
 import android.app.Application
-import android.view.View
 import android.widget.Toast
-import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import com.acs.stage2.model.Hipo
 import com.acs.stage2.model.Member
-import com.acs.stage2.view.MemberAdapter
 import com.acs.stage2.viewmodel.service.Database
-import com.google.gson.GsonBuilder
 import kotlinx.coroutines.launch
 
 class MembersViewModel(application: Application) : BaseViewModel(application) {

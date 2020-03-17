@@ -1,22 +1,15 @@
 package com.acs.stage2.view
 
-import android.content.res.AssetManager
-import android.graphics.Typeface
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.*
-import androidx.appcompat.app.AlertDialog
-import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.acs.stage2.R
-import com.acs.stage2.model.Hipo
-import com.acs.stage2.model.Member
 import com.acs.stage2.viewmodel.MembersViewModel
-import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.fragment_members.*
 
 //The main fragment

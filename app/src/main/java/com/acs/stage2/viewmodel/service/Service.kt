@@ -2,8 +2,6 @@ package com.acs.stage2.viewmodel.service
 
 import android.content.Context
 import android.content.res.AssetManager
-import android.os.AsyncTask
-import android.os.Environment
 import com.acs.stage2.model.Member
 import com.acs.stage2.model.Model
 import com.google.gson.GsonBuilder
@@ -14,7 +12,6 @@ class Database(c : Context){
     val FILE_NAME = "hipo.json"
     var result = ""
     val context = c
-
 
 
     //This method is just used once

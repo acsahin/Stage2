@@ -8,9 +8,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.acs.stage2.R
-import com.acs.stage2.model.Member
 import com.acs.stage2.viewmodel.DetailsViewModel
-import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.fragment_details.*
 
 class DetailsFragment : Fragment() {

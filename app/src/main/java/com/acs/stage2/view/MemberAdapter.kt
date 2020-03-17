@@ -1,16 +1,11 @@
 package com.acs.stage2.view
 
-import android.app.LauncherActivity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Filter
-import android.widget.Filterable
-import androidx.databinding.DataBindingUtil
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.acs.stage2.R
-import com.acs.stage2.databinding.ItemMemberBinding
 import com.acs.stage2.model.Member
 import com.google.gson.GsonBuilder
 import kotlinx.android.synthetic.main.item_member.view.*
